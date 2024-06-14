@@ -1,2 +1,2 @@
-### Estikis_Nice
-This is a repo
+###### Estikis_Nice
+## This repo is only for learning. 
