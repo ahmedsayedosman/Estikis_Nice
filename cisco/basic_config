@@ -1,0 +1,24 @@
+enable
+conf t
+enable secret cisco
+line con 0
+password cisco
+login 
+logging sync
+exec-timeout 0 0
+exit
+line vty 0 4
+password cisco
+login
+logging sync
+exec-timeout 0 0
+exit
+ip domain-name cisco.com
+no ip domain-lookup
+username ahmed priv 15 secret cisco
+crypto key-generate rsa
+2048
+ip ssh ver 2
+do copy runn start
+exit
+
