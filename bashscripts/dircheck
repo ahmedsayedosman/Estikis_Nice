@@ -1,0 +1,16 @@
+#!/bin/bash
+
+dir=/etc
+
+if [ -d $dir ] 
+then
+    echo " The exit code of this query is $?"
+    echo " The directory exists "
+    
+else
+    echo " The exit code of this query is $?" 
+    echo " The directory does not exist "
+    
+fi
+
+

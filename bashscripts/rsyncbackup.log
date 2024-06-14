@@ -1,0 +1,35 @@
+sending incremental file list
+backup.log
+
+sent 65,187 bytes  received 35 bytes  11,858.55 bytes/sec
+total size is 65,078  speedup is 1.00
+sending incremental file list
+rsyncahmed.log
+
+sent 278 bytes  received 35 bytes  56.91 bytes/sec
+total size is 161  speedup is 0.51
+sending incremental file list
+backup.log
+
+sent 65,187 bytes  received 35 bytes  3,525.51 bytes/sec
+total size is 65,078  speedup is 1.00
+sending incremental file list
+rsyncahmed.log
+
+sent 278 bytes  received 35 bytes  41.73 bytes/sec
+total size is 161  speedup is 0.51
+sending incremental file list
+rsync.log
+
+sent 426 bytes  received 35 bytes  48.53 bytes/sec
+total size is 322  speedup is 0.70
+sending incremental file list
+systembackup.tar.xz
+
+sent 300,319,835 bytes  received 35 bytes  31,612,617.89 bytes/sec
+total size is 300,246,428  speedup is 1.00
+sending incremental file list
+backup.log
+
+sent 65,187 bytes  received 35 bytes  10,034.15 bytes/sec
+total size is 65,078  speedup is 1.00

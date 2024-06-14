@@ -1,0 +1,14 @@
+#!/bin/bash
+
+name=$(whoami)
+
+ echo "user id is: $(id -u) $name"
+
+echo "Groups assigned:-"
+cat /etc/group | grep -w $name
+
+date
+
+cal
+
+htop

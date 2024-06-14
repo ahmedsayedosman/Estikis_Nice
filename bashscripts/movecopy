@@ -1,0 +1,26 @@
+#!/bin/bash
+
+
+
+
+find / -type f -name "*.tar.xz" -exec mv -t /home/IT/backups {} +  >movecopy.log 2> mmovecopyf.log
+find / -type f -name "*.tar.gzip" -exec mv -t /home/IT/backups {} +
+
+
+
+echo " searching for tar files in all directories "
+
+sleep 5
+
+
+	echo " Backup files in all directories have been moved to /home/IT/backups "
+	
+sleep 1
+
+        echo " Transfering backup to rhclient:/backups... "
+	sleep 5
+        scp /home/IT/backups/* ahmedsayed@rhclient:/backups
+
+
+
+

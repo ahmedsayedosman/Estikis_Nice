@@ -1,0 +1,14 @@
+#!/bin/bash
+
+num=2000
+
+if  [ $num -gt 200 ]
+
+then
+
+    echo " The statement is true"
+
+else
+    echo " HAHAHA"
+
+fi

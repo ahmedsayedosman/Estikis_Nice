@@ -1,0 +1,15 @@
+#!/bin/bash
+
+for file in *.xz
+do
+
+mv $file /home/IT/backups
+
+done
+
+echo "Backup files have been moved to the backup directory"
+
+sleep 5
+
+scpbackup
+

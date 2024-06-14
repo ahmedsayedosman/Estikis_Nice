@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for file in /home/IT/backups/*.xz
+do
+
+scp $file ahmedsayed@rhclient:/backups
+
+done
+
+
+echo " A backup has been created at:- rhclient:/backups"
+
+

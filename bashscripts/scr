@@ -1,0 +1,21 @@
+#!/bin/bash
+
+for file in /home/IT/scripts/*
+do
+
+cp $file /usr/local/bin/	
+
+done
+
+if [ exit -eq 0 ] 
+
+
+then
+
+   echo "your scripts have successfuly been copied to usr/local/bin !"
+else
+   echo "your scripts have failed to copy to /usr/local/bin"
+fi
+
+
+

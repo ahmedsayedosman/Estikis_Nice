@@ -1,0 +1,14 @@
+#!/bin/bash
+
+user=$(whoami)
+
+if [ -f /var/spool/cron/$user ]
+
+then
+
+ln -s /var/spool/cron/$user /home/IT/cronjobs/$user
+
+sleep 5
+
+fi
+

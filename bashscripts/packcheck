@@ -1,0 +1,34 @@
+#!/bin/bash
+
+
+echo "Enter the package to check:- "
+read pack
+
+if [ -f /usr/bin/$pack ]
+then
+	echo "Package is already available"
+
+else
+
+	finished=0
+while [ $finished -ne 1 ]
+do
+echo "Package is not available on your system, do you want to:-
+        1- Search(1)                   2- Download & install(2)   
+        3- Exit the prompt(3)"
+
+
+read var
+case $var in
+	1) sudo dnf search $pack;;
+	2) sudo dnf install -y $pack;;
+	3) finished=1 
+	echo "Exited the prompt";;
+	*) echo "Invalid choice";;
+
+esac
+done
+fi
+
+
+

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+for log in /var/log/*.log
+do
+
+	cp -pnv $log /home/IT/logfiles/
+
+done
+
+
+echo "Copying log files completed!"
+

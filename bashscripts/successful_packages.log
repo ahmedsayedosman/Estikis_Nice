@@ -1,0 +1,82 @@
+Updating Subscription Management repositories.
+LocalRepo_BaseOS                                2.7 MB/s | 2.7 kB     00:00    
+LocalRepo_AppStream                             3.1 MB/s | 3.2 kB     00:00    
+Dependencies resolved.
+================================================================================
+ Package      Arch        Version                Repository                Size
+================================================================================
+Installing:
+ mariadb      x86_64      3:10.5.12-2.el9        LocalRepo_AppStream      1.8 M
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total size: 1.8 M
+Installed size: 38 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Installing       : mariadb-3:10.5.12-2.el9.x86_64                         1/1 
+  Running scriptlet: mariadb-3:10.5.12-2.el9.x86_64                         1/1 
+  Verifying        : mariadb-3:10.5.12-2.el9.x86_64                         1/1 
+Installed products updated.
+
+Installed:
+  mariadb-3:10.5.12-2.el9.x86_64                                                
+
+Complete!
+Updating Subscription Management repositories.
+LocalRepo_BaseOS                                2.7 MB/s | 2.7 kB     00:00    
+LocalRepo_AppStream                             3.1 MB/s | 3.2 kB     00:00    
+Package mariadb-3:10.5.12-2.el9.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Updating Subscription Management repositories.
+Last metadata expiration check: 0:00:46 ago on Tue 04 Jun 2024 03:30:54 PM CAT.
+No match for argument: hahaha
+Updating Subscription Management repositories.
+LocalRepo_BaseOS                                2.7 MB/s | 2.7 kB     00:00    
+LocalRepo_AppStream                             3.1 MB/s | 3.2 kB     00:00    
+No match for argument: hahaha
+Updating Subscription Management repositories.
+LocalRepo_BaseOS                                2.7 MB/s | 2.7 kB     00:00    
+LocalRepo_AppStream                             3.1 MB/s | 3.2 kB     00:00    
+Red Hat Enterprise Linux 9 for x86_64 - BaseOS   84  B/s | 3.7 kB     00:45    
+Red Hat Enterprise Linux 9 for x86_64 - AppStre 1.6 kB/s | 3.7 kB     00:02    
+No match for argument: ipa
+Updating Subscription Management repositories.
+LocalRepo_BaseOS                                2.7 MB/s | 2.7 kB     00:00    
+LocalRepo_AppStream                             3.1 MB/s | 3.2 kB     00:00    
+No match for argument: mama
+Updating Subscription Management repositories.
+Last metadata expiration check: 0:00:36 ago on Fri 07 Jun 2024 04:16:20 PM CAT.
+No match for argument: mamma
+Updating Subscription Management repositories.
+LocalRepo_BaseOS                                2.7 MB/s | 2.7 kB     00:00    
+LocalRepo_AppStream                             3.1 MB/s | 3.2 kB     00:00    
+Package gnome-color-manager-3.36.0-7.el9.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Updating Subscription Management repositories.
+LocalRepo_BaseOS                                2.7 MB/s | 2.7 kB     00:00    
+LocalRepo_AppStream                             3.1 MB/s | 3.2 kB     00:00    
+No match for argument: MAMA
+Updating Subscription Management repositories.
+LocalRepo_BaseOS                                2.7 MB/s | 2.7 kB     00:00    
+LocalRepo_AppStream                             3.1 MB/s | 3.2 kB     00:00    
+No match for argument: ka
+Updating Subscription Management repositories.
+LocalRepo_BaseOS                                2.7 MB/s | 2.7 kB     00:00    
+LocalRepo_AppStream                             3.1 MB/s | 3.2 kB     00:00    
+No match for argument: ipa
+Updating Subscription Management repositories.
+LocalRepo_BaseOS                                2.7 MB/s | 2.7 kB     00:00    
+LocalRepo_AppStream                             3.1 MB/s | 3.2 kB     00:00    
+No match for argument: mama

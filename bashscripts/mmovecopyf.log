@@ -1,0 +1,12 @@
+find: ‘/run/user/1000/gvfs’: Permission denied
+mv: '/home/IT/backups/systembackup.tar.xz' and '/home/IT/backups/systembackup.tar.xz' are the same file
+mv: '/home/IT/backups/logs.tar.xz' and '/home/IT/backups/logs.tar.xz' are the same file
+mv: '/home/IT/backups/disks.tar.xz' and '/home/IT/backups/disks.tar.xz' are the same file
+mv: '/home/IT/backups/IT.tar.xz' and '/home/IT/backups/IT.tar.xz' are the same file
+mv: '/home/IT/backups/sysbackup.tar.xz' and '/home/IT/backups/sysbackup.tar.xz' are the same file
+mv: '/home/IT/backups/uefi-capsule-ux.tar.xz' and '/home/IT/backups/uefi-capsule-ux.tar.xz' are the same file
+mv: '/home/IT/backups/ahmed.tar.xz' and '/home/IT/backups/ahmed.tar.xz' are the same file
+mv: '/home/IT/backups/ali.tar.xz' and '/home/IT/backups/ali.tar.xz' are the same file
+mv: '/home/IT/backups/rhclient.tar.xz' and '/home/IT/backups/rhclient.tar.xz' are the same file
+mv: '/home/IT/backups/tarvar.tar.xz' and '/home/IT/backups/tarvar.tar.xz' are the same file
+mv: '/home/IT/backups/afs.tar.xz' and '/home/IT/backups/afs.tar.xz' are the same file
