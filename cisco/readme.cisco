@@ -1,0 +1,4 @@
+we have 5 routers R{1..5} all connected to R1 on a hub and spoke topology.
+  I will be creating and pushing config file based on this topolgy.
+  I will create ipsec_tunnels and dmvpn tunnels between them. But this will happen after I finish learning github.
+Have a good day. Salam
