@@ -1,0 +1,18 @@
+crypto isakmp policy 100
+hash sha512
+authentication pre-share
+group 16
+lifetime 3600
+enc aes 256
+exit
+crypto isakmp key 6 cisco add 192.168.1.2
+crypto ipsec transform-set IPSEC esp-sha512-hmac esp-aes 256
+exit
+int tunnel 1
+ip add 192.168.1.1 255.255.255.0
+tunnel source <R1 public interface>
+tunnel dest <R2 public interface>
+tunnel protection ipsec profile IPSEC
+exit
+do copy running-config startup-config
+
