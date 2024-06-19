@@ -5,13 +5,13 @@ group 16
 lifetime 3600
 enc aes 256
 exit
-crypto isakmp key 6 cisco add 192.168.1.2
+crypto isakmp key 6 cisco add 192.168.1.2                            "R2's tunnel ip address"
 crypto ipsec transform-set IPSEC esp-sha512-hmac esp-aes 256
 exit
 int tunnel 1
 ip add 192.168.1.1 255.255.255.0
-tunnel source <R1 public interface>
-tunnel dest <R2 public interface>
+tunnel source 200.1.1.1                                             "R1's public IP Address"
+tunnel dest 200.1.2.1                                               "R2's public IP Address"
 tunnel protection ipsec profile IPSEC
 exit
 do copy running-config startup-config
